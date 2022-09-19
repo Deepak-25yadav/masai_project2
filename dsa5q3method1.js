@@ -1,0 +1,9 @@
+ bag="";
+    for(i=0;i<=str.length-1;i++){
+       if(str[i]==str[i+1]){
+           flag=str[i]}
+           else{
+               bag=bag+str[i]+"";
+           }
+       }
+    console.log(bag);
